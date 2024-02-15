@@ -1,0 +1,101 @@
+body{
+   line-height: 2;
+}
+
+
+header, nav{
+    padding-left: 20px;
+    padding-bottom: 35px;
+    margin: 70px;
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: #27b28b;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+
+}
+
+nav a.current{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-transform:uppercase;
+    text-underline-offset: 10px;
+}
+
+
+h1{
+   font-family: 'Times New Roman', Times, serif;
+    font-size: 48px;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    /* text-align: center; */
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+
+}
+
+h1, h2, h3{
+    margin: 15px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin: o auto;
+    grid-gap: 10px;
+}
+
+.grid div{
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.grid img{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.grid div:nth-child(3n+1)  {
+    /* Set box shadow */
+    }
+
+.grid div:nth-child(3n)  {
+    /* Set box shadow */ 
+}
+
+.grid div:nth-child(3n+2)  {
+     /* Set box shadow */
+}
+    
+
+p + p {
+     /* Set indentation */
+  }
+  
+p{
+     /* Set margin */
+}
+
+
+.grid ul li{
+    /* Set margin, line-spacing, list styling  */
+}
